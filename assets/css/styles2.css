@@ -131,10 +131,11 @@
 
 .pr2 {
     font-family: 'Inclusive Sans', sans-serif;
-    font-size: 30px;
+    font-size: 26px;
     padding-top: 1%;
     margin-left: 450px;
     margin-right: 450px;
+    text-align: center;
     
 }
 /* --------------------------------------------- */
