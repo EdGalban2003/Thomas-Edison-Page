@@ -1,0 +1,76 @@
+/* Estilos CSS para el cuerpo */
+.body {
+    margin: 0;
+    padding: 0;
+
+}
+/* --------------------------------------------- */
+
+/* Estilos CSS para el espacio de color negro */
+.black-bar {
+    background-color: black; 
+    height: 30px; 
+    width: 100%; 
+    margin: 0; 
+    padding: 0px; 
+    left: 0; 
+    z-index: 1; 
+}
+/* --------------------------------------------- */
+
+
+/* Estilos CSS para el menú de navegación */
+.navigation-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+.menu-button {
+    padding: 10px 20px;
+    background-color: rgb(255, 255, 255); 
+    color: rgb(212, 201, 0); 
+    text-decoration: none;
+    border: none;
+    border-radius: 1px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    font-size: 25px;
+    font-family: 'Inclusive Sans', sans-serif;
+    font-family: 'Martian Mono', monospace;
+    font-family: 'Playfair Display', serif;
+}
+
+.menu-divider {
+    color: rgb(15, 11, 11); 
+    margin: 0 10px; 
+}
+
+.menu-button:hover {
+    background-color: #ffe15a; 
+    color: black; 
+    border-bottom: 2.5px solid #ff0000;
+}
+/* --------------------------------------------- */
+
+
+/* Estilos CSS para la barra horizontal debajo del menú */
+.lm {
+    border: none;
+    border-bottom: 1px solid #bbbbbb; 
+    width: 100%;
+    position: absolute;
+    top: 76px
+    
+}
+/* --------------------------------------------- */
+
+
+
+/* Estilos para pie de pagina sobre copyrithg */
+.dr {
+    font-size: 15;
+    text-align: center;
+
+}

@@ -1,0 +1,261 @@
+/* Estilos CSS para el cuerpo */
+.body {
+    margin: 0;
+    padding: 0;
+
+}
+/* --------------------------------------------- */
+
+/* Estilos CSS para el espacio de color negro */
+.black-bar {
+    background-color: black; 
+    height: 30px; 
+    width: 100%; 
+    margin: 0; 
+    padding: 0px; 
+    left: 0; 
+    z-index: 1; 
+}
+/* --------------------------------------------- */
+
+
+/* Estilos CSS para el menú de navegación */
+.navigation-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+.menu-button {
+    padding: 10px 20px;
+    background-color: rgb(255, 255, 255); 
+    color: rgb(212, 201, 0); 
+    text-decoration: none;
+    border: none;
+    border-radius: 1px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    font-size: 25px;
+    font-family: 'Inclusive Sans', sans-serif;
+    font-family: 'Martian Mono', monospace;
+    font-family: 'Playfair Display', serif;
+}
+
+.menu-divider {
+    color: rgb(15, 11, 11); 
+    margin: 0 10px; 
+}
+
+.menu-button:hover {
+    background-color: #ffe15a; 
+    color: black; 
+    border-bottom: 2.5px solid #ff0000;
+}
+/* --------------------------------------------- */
+
+
+/* Estilos CSS para la barra horizontal debajo del menú */
+.lm {
+    border: none;
+    border-bottom: 1px solid #bbbbbb; 
+    width: 100%;
+    position: absolute;
+    top: 76px
+    
+}
+/* --------------------------------------------- */
+
+
+/* Estilos CSS para el mensaje de Bienvenida */
+.bienvenida {
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Inclusive Sans', sans-serif;
+    padding: 6px;
+    padding-bottom: 17px;
+
+}
+/* --------------------------------------------- */
+
+/* Estilos CSS para la barra horizontal 2 */
+.lm2
+{
+    border: none;
+    border-bottom: 1px solid #bbbbbb; 
+    width: 100%
+}
+/* --------------------------------------------- */
+
+
+/* Estilos CSS para la imagen de Portada */
+.img1 {
+    display: block;
+    margin: 0 auto;
+    width: 1400px;
+    height: 700px;
+
+}
+/* --------------------------------------------- */
+
+
+/* Estilos CSS para la barra horizontal 2 */
+.lm3
+{
+    border: none;
+    border-bottom: 1px solid #bbbbbb; 
+    width: 100%;
+    padding-top: 150px;
+}
+/* --------------------------------------------- */
+
+
+/* Estilos CSS para el título 2*/
+.tt1 {
+    text-align: left;
+    margin-top: 20px;
+    
+}
+
+.tt1 {
+    font-size: 40px;
+    font-family: 'Inclusive Sans', sans-serif;
+    font-family: 'Martian Mono', monospace;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+}
+/* --------------------------------------------- */
+
+
+/* Estilos CSS para la imagen 2 */
+.img2 {
+    display: block;
+    margin: 0 auto;
+    width: 1400px;
+    height: 700px;
+
+}
+/* --------------------------------------------- */
+
+
+/* Estilos CSS para la informacion de autor y fecha*/
+.info {
+    display: flex; 
+    align-items: center; 
+    margin-left: 220px;
+    
+}
+
+.p1 {
+    text-align: center;
+    padding-left: 3px;
+}
+/* --------------------------------------------- */
+
+/* Estilos CSS para la informacion de pagina*/
+.p2 {
+    text-align: justify;
+
+}
+
+.pr {
+    font-family: sans-serif;
+    font-size: 22px;
+    padding-top: 1%;
+    margin-left: 450px;
+    margin-right: 450px;
+
+}
+
+.pr2 {
+    font-family: 'Inclusive Sans', sans-serif;
+    font-size: 20px;
+    padding-top: 1%;
+    margin-left: 450px;
+    margin-right: 450px;
+    
+}
+
+/* Estilos CSS para la informacion de pagina 2*/
+.p3 {
+    text-align: center;
+
+}
+
+.pr3 {
+    font-family: sans-serif;
+    font-size: 22px;
+    margin-left: 450px;
+    margin-right: 450px;
+
+}
+
+.pr4 {
+    font-family: 'Inclusive Sans', sans-serif;
+    font-size: 18px;
+    margin-left: 450px;
+    margin-right: 450px;
+    
+}
+
+.infor {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+
+}
+/* --------------------------------------------- */
+
+/* Estilos CSS para la imagen 3 y 4 */
+.img3 {
+    display: block;
+    margin: 0 auto;
+    width: 500px;
+    height: 250px;
+
+}
+/* --------------------------------------------- */
+
+
+/* Estilos CSS para la barra horizontal 2 */
+.lm4
+{
+    border: none;
+    border-bottom: 1px solid #bbbbbb; 
+    width: 100%;
+}
+/* --------------------------------------------- */
+
+
+/* Estilos CSS para la barra horizontal 2 */
+.lm5
+{
+    border: none;
+    border-bottom: 1px solid #bbbbbb; 
+    width: 100%;
+    padding-top: 150px;
+}
+/* --------------------------------------------- */
+
+
+/* Estilos CSS para la imagen 5 */
+.img4 {
+    display: block;
+    margin: 0 auto;
+    width: 700px;
+    height: 700px;
+
+}
+/* --------------------------------------------- */
+
+
+/* Estilos para pie de página */
+.footer {
+    background-color: black; /* Color de fondo negro */
+    color: white; /* Color del texto blanco */
+    text-align: center;
+    padding: 10px 0; /* Espaciado interior para contenido del pie de página */
+    font-size: 15px;
+    width: 100%;
+}
+/* --------------------------------------------- */
