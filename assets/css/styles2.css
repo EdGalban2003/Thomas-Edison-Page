@@ -6,6 +6,7 @@
 }
 /* --------------------------------------------- */
 
+
 /* Estilos CSS para el espacio de color negro */
 .black-bar {
     background-color: black; 
@@ -63,6 +64,52 @@
     position: absolute;
     top: 76px
     
+}
+/* --------------------------------------------- */
+
+
+/* Estilos CSS para el mensaje de Bienvenida */
+.inf0 {
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Inclusive Sans', sans-serif;
+    padding: 6px;
+    padding-bottom: 17px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+/* --------------------------------------------- */
+
+
+/* Estilos CSS para la imagen de Portada */
+.img1 {
+    display: block;
+    margin: 0 auto;
+    width: 1400px;
+    height: 700px;
+
+}
+/* --------------------------------------------- */
+
+
+/* Estilos CSS para la barra horizontal 1 */
+.lm2
+{
+    border: none;
+    border-bottom: 1px solid #bbbbbb; 
+    width: 100%
+}
+/* --------------------------------------------- */
+
+
+/* Estilos CSS para la barra horizontal 2 */
+.lm3
+{
+    border: none;
+    border-bottom: 1px solid #bbbbbb; 
+    width: 100%;
+    padding-top: 150px;
 }
 /* --------------------------------------------- */
 
