@@ -251,10 +251,10 @@
 
 /* Estilos para pie de página */
 .footer {
-    background-color: black; /* Color de fondo negro */
-    color: white; /* Color del texto blanco */
+    background-color: black; 
+    color: white; 
     text-align: center;
-    padding: 10px 0; /* Espaciado interior para contenido del pie de página */
+    padding: 10px 0;
     font-size: 15px;
     width: 100%;
 }

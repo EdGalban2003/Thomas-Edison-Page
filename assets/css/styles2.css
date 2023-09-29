@@ -68,9 +68,47 @@
 
 
 
-/* Estilos para pie de pagina sobre copyrithg */
-.dr {
-    font-size: 15;
-    text-align: center;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Estilos para pie de página */
+.footer {
+    background-color: black; 
+    color: white; 
+    text-align: center;
+    padding: 10px 0; 
+    font-size: 15px;
+    width: 100%;
 }
+/* --------------------------------------------- */
+
